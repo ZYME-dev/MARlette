@@ -143,7 +143,7 @@ En 1 clic **MARlette** prépare vos formulaires ANAH à partir d'une simple fich
 """
 )
 
-# st.json(json.dumps(get_files_index(TMP_DIR_PATH), indent=2), expanded=False)
+st.json(json.dumps(get_files_index(TMP_DIR_PATH), indent=2), expanded=False)
 
 st.caption("Crédits : [Lionel](https://www.linkedin.com/in/lionel-dupeloux/)")
 
